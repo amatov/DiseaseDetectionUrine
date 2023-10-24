@@ -2,4 +2,6 @@
 
 ### R code I wrote for clustering (the clustering is by FactoMineR, there is also a function for clustering and differential expression analysis from the Thomas Tuschl lab, an additional function for differential expression analysis, support vector machine and random forest classification is by Karin Groothuis-Oudshoorn) of urinary microRNA
 
-#### Presentations and funding applications on this project are available here: https://researchgate.net/publication/374166171_Longitudinal_Analysis_of_Next-Generation_Sequencing_of_Nucleic_Acids_for_Early_Detection_of_Disease_2019
+#### Presentations and a funding application on this project are available here: https://researchgate.net/publication/374166171_Longitudinal_Analysis_of_Next-Generation_Sequencing_of_Nucleic_Acids_for_Early_Detection_of_Disease_2019
+
+#### An IRB protocol and biobank information are available here: https://www.researchgate.net/publication/374059467_Longitudinal_Analysis_of_Next-Generation_Sequencing_of_Nucleic_Acids_for_Early_Detection_of_Degenerative_Diseases_Such_as_Cardiovascular_Neoplastic_and_Diseases_Related_to_the_Nervous_System_IRB_Proto

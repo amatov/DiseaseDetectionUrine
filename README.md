@@ -1,4 +1,4 @@
-### R and Matlab code I wrote for companion diagnostics, UriWatch - LiquidThermometer.
+### R and Matlab code I wrote for companion diagnostics, UriWatch - LiquidThermometer, www.uriwatch.com
 
 ### Matlab code I wrote to segregate lung cancer stage IV drug-naive patients in Rotterdam and Enschede, NL (provided by Johan de Rooij, PhD) from healthy urinary microRNA samples (the divergence implementation is by Tsachy Weissman lab) 
 

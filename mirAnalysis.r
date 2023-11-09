@@ -334,23 +334,9 @@ design = ~ sex + fraction)
 vsd <- varianceStabilizingTransformation(dds)
 plotPCA(vsd, intgroup=c("fraction", "sex"))
 myfile="PONE-D-15-46623_clust.txt"
-install.packages("PTak")
-install.packages('PTak')
 install.packages(PTak)
-library(PTAk)
-install.packages("PTAk")
-library(PTAk)
 install.packages("tensor")
 library(PTAk)
-install.packages("tensor")
-install.packages("tensor")
-library(PTAk)
-install.packages("tensor")
-install.packages("tensor")
-library("PTAk)
-library("PTAk")
-library("PTAk")
-help("PTAk")
 PTAk(X,nbPT=2,nbPT2=1,minpct=0.1,
 smoothing=FALSE,
 smoo=list(NA),
@@ -424,10 +410,8 @@ don.sol <- PTAk(don,nbPT=1,nbPT2=2,minpct=0.01,
 verbose=TRUE,
 modesnam=c("Subjects","Trimester","Time","Age"),
 addedcomment="centered on each mode")
-don.sol <- PTAk(don
 don.sol <- PTAk(don)
 x<-don
-X<-don
 APSOLU3(X,solu,pt3=NULL,nbPT2=1,
 smoothing=FALSE,smoo=list(NA),
 verbose=getOption("verbose"),file=NULL)

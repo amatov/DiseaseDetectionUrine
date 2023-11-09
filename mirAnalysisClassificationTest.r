@@ -5,13 +5,6 @@ confusionMat(bagsvm)
 library(DESeq2)
 library(DESeq2)
 source('C:/Users/dsa/Desktop/micro_RNA_analyses_1_12_2017.R', echo=TRUE)
-###############################################################################
-###############################################################################
-## Analysis microRNA data
-## December 1st, 2017
-## Karin Groothuis-Oudshoorn
-###############################################################################
-###############################################################################
 ## Load the necessary libraries
 library(DESeq2)
 library(edgeR)

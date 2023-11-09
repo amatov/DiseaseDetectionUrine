@@ -1,5 +1,5 @@
 
-setwd("~/Google Drive/IBD-690/690urine/PONE") # change accordingly
+#setwd("E:\data\DSA\HealthyPlos1") # change accordingly
 
 ############
 # Figure 1 #

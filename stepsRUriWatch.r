@@ -4,6 +4,7 @@ install.packages("rlang")
 install.packages("readxl")
 library(readxl)
 
+# EDIT: hardcoded absolute path to the original author's machine
 df <- read_excel("C:\\Users\\dsa\\Desktop\\UriWatchDataSet001.xlsx", sheet=1 , col_types = "numeric")
 
 p24=df[4:613,11]
@@ -13,6 +14,7 @@ c7=df[4:613,38]
 c8=df[4:613,47]
 c9=df[4:613,56]
 
+# EDIT: hardcoded absolute path to the original author's machine
 df <- read_excel("C:\\Users\\dsa\\Desktop\\UriWatchDataSet001.xlsx", sheet=1 )
 
 mirs <- matrix(0,610, 7)
@@ -36,6 +38,7 @@ install.packages("FactoMineR")
 library(FactoMineR)
 res <- PCA(mirs)
 
+# EDIT: hardcoded absolute path to the original author's machine
 df <- read_excel("C:\\Users\\dsa\\Desktop\\UriWatchDataSet001.xlsx", sheet=1)
 mirList=df[4:613,1]
 mirList

@@ -4,6 +4,7 @@ trained(bagsvm)
 confusionMat(bagsvm)
 library(DESeq2)
 library(DESeq2)
+# EDIT: hardcoded absolute path to the original author's machine
 source('C:/Users/dsa/Desktop/micro_RNA_analyses_1_12_2017.R', echo=TRUE)
 ## Load the necessary libraries
 library(DESeq2)
@@ -19,6 +20,7 @@ BiocManager::install("DESeq2")
 BiocManager::install("edgeR")
 library(DESeq2)
 library(edgeR)
+# EDIT: hardcoded absolute path to the original author's machine
 temp <- read.table("C:/Users/dsa/Desktop/Data_1_12_2017_2019.csv", sep = ";", header = TRUE, row.names = 1, nrows = 687)
 RNA <- temp[-1, seq(from = 1, to = 76, by = 5)]
 colnames(RNA)
@@ -134,16 +136,21 @@ y
 et <- exactTest(y)
 install.packages("FactoMineR")
 library(FactoMineR)
+# EDIT: hardcoded absolute path to the original author's machine
 df <- read_excel("C:\\Users\\dsa\\Desktop\\LungCancerPanel25of947miRs28pts.xlsx", sheet=1)
 library(readxl)
+# EDIT: hardcoded absolute path to the original author's machine
 df <- read_excel("C:\\Users\\dsa\\Desktop\\LungCancerPanel25of947miRs28pts.xlsx", sheet=1)
 df
 res <- PCA(df)
+# EDIT: hardcoded absolute path to the original author's machine
 df <- read_excel("C:\\Users\\dsa\\Desktop\\LungCancerPanel25of947miRs28ptsClean.xlsx", sheet=1)
 res <- PCA(df)
 res <- PCA(df')
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH2listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH2listT.txt", header=TRUE, row.names=1)
 >   View(LungCancerPanel20of743miRs13ptsH2listT)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH2listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH2listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH2listT)
 library(FactoMineR)
@@ -152,6 +159,7 @@ df<-scale(LungCancerPanel20of743miRs13ptsH2listT)
 heatmap(df,scale="none")
 df<-scale(LungCancerPanel20of743miRs13ptsH2listT'')
 df<-scale(LungCancerPanel20of743miRs13ptsH2listT')
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH2list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH2list.txt", header=TRUE, row.names=1)
 df1<-scale(LungCancerPanel20of743miRs13ptsH2list')
 df1<-scale(LungCancerPanel20of743miRs13ptsH2list)
@@ -309,31 +317,40 @@ library(MLSeq)
 cart <- classify(data = data.trainS4, method = "cart", normalize = "deseq", deseqTransform = "vst", cv = 5, rpt = 3, ref = "H")
 acart
 trained(cart)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1list.txt", header=FALSE)
 View(LungCancerPanel20of743miRs13ptsH1list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1list.txt", header=TRUE)
 View(LungCancerPanel20of743miRs13ptsH1list)
 data(LungCancerPanel20of743miRs13ptsH1list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1list.txt", header=TRUE)
 View(LungCancerPanel20of743miRs13ptsH1list)
 data("LungCancerPanel20of743miRs13ptsH1list")
 res.pca<-(LungCancerPanel20of743miRs13ptsH1list)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH1list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1listT.txt", header=FALSE)
 View(LungCancerPanel20of743miRs13ptsH1listT)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1listT.txt", header=TRUE, row.names=1)
 >   View(LungCancerPanel20of743miRs13ptsH1listT)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH1list)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH1listT)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH1listT)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH1listT)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH1listT)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH1listT)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH1listT)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH1listT)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH1list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH1list.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH1list)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH1list)
@@ -347,6 +364,7 @@ df_new<-scale(LungCancerPanel20of743miRs13ptsH1listT')
 df_new<-scale(LungCancerPanel20of743miRs13ptsH1listT)
 heatmap(df_new, scale = "none", col =  col)
 heatmap(df, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel17of743miRs13ptsH1listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel17of743miRs13ptsH1listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel17of743miRs13ptsH1listT)
 res.pca<-PCA(LungCancerPanel17of743miRs13ptsH1list)
@@ -355,31 +373,39 @@ df_new2<-scale(LungCancerPanel17of743miRs13ptsH1listT)
 heatmap(df_new2, scale = "none", col =  col)
 heatmap(df_new, scale = "none", col =  col)
 heatmap(df, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel17of743miRs13ptsH3listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel17of743miRs13ptsH3listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel17of743miRs13ptsH3listT)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH3listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH3listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH3listT)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH3listT)
 df_new3<-scale(LungCancerPanel20of743miRs13ptsH3listT)
 heatmap(df_new3, scale = "none", col =  col)
 heatmap(df, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 lung_oncomirs_medNor_722H3.xlsx <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/lung_oncomirs_medNor_722H3.xlsx", header=TRUE, row.names=1)
 View(lung_oncomirs_medNor_722H3.xlsx)
+# EDIT: hardcoded absolute path to the original author's machine
 lung_oncomirs_medNor_722H3.xlsx <- read.delim("C:\Users\dsa\Documents\MATLAB\lung_oncomirs_medNor_722H3.xlsx", header=TRUE, row.names=1)
 View(lung_oncomirs_medNor_722H3.xlsx)
+# EDIT: hardcoded absolute path to the original author's machine
 lung_oncomirs_medNor_722H3.xlsx <- read.delim("C:\Users\dsa\Documents\MATLAB\lung_oncomirs_medNor_722H3.xlsx", header=TRUE, row.names=1)
 View(lung_oncomirs_medNor_722H3.xlsx)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH3listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH3listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH3listT)
 res.pca<-PCA(LungCancerPanel20of743miRs13ptsH3listT)
 df_new3<-scale(LungCancerPanel20of743miRs13ptsH3listT)
 heatmap(df_new3, scale = "none", col =  col)
 heatmap(df, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel5of743miRs13ptsH3listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel5of743miRs13ptsH3listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel5of743miRs13ptsH3listT)
 res.pca<-PCA(LungCancerPanel5of743miRs13ptsH3listT)
 df_new5<-scale(LungCancerPanel5of743miRs13ptsH3listT)
 heatmap(df_new5, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel5of743miRs13ptsH1listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel5of743miRs13ptsH1listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel5of743miRs13ptsH1listT)
 res.pca<-PCA(LungCancerPanel5of743miRs13ptsH1listT)
@@ -387,21 +413,25 @@ df_new6<-scale(LungCancerPanel5of743miRs13ptsH1listT)
 heatmap(df_new6, scale = "none", col =  col)
 heatmap(df_new6, scale = "none", col =  col)
 heatmap(df_new5, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel5of743miRs13ptsH2listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel5of743miRs13ptsH2listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel5of743miRs13ptsH2listT)
 df_new7<-scale(LungCancerPanel5of743miRs13ptsH2listT)
 heatmap(df_new7, scale = "none", col =  col)
 heatmap(df, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel3of743miRs13ptsH2listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel3of743miRs13ptsH2listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel3of743miRs13ptsH2listT)
 d23<-scale(LungCancerPanel3of743miRs13ptsH2listT)
 heatmap(df23, scale = "none", col =  col)
 df23<-scale(LungCancerPanel3of743miRs13ptsH2listT)
 heatmap(df23, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel3of743miRs13ptsH1listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel3of743miRs13ptsH1listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel3of743miRs13ptsH1listT)
 df13<-scale(LungCancerPanel3of743miRs13ptsH1listT)
 heatmap(df13, scale = "none", col =  col)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel3of743miRs13ptsH3listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel3of743miRs13ptsH3listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel3of743miRs13ptsH3listT)
 df33<-scale(LungCancerPanel3of743miRs13ptsH3listT)
@@ -409,20 +439,25 @@ heatmap(df33, scale = "none", col =  col)
 heatmap(df23, scale = "none", col =  col)
 res.pca<-PCA(LungCancerPanel2of743miRs13ptsH1listT)
 res.pca<-PCA(LungCancerPanel3of743miRs13ptsH1listT)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel3of743miRs13ptsH3list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel3of743miRs13ptsH3list.txt", header=TRUE, row.names=1)
 View(LungCancerPanel3of743miRs13ptsH3list)
 res.pca<-PCA(LungCancerPanel3of743miRs13ptsH1list)
 res.pca<-PCA(LungCancerPanel3of743miRs13ptsH3list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel3of743miRs13ptsH2list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel3of743miRs13ptsH2list.txt", header=TRUE, row.names=1)
 View(LungCancerPanel3of743miRs13ptsH2list)
 res.pca<-PCA(LungCancerPanel3of743miRs13ptsH2list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel3of743miRs13ptsH1list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel3of743miRs13ptsH1list.txt", header=TRUE, row.names=1)
 View(LungCancerPanel3of743miRs13ptsH1list)
 res.pca<-PCA(LungCancerPanel3of743miRs13ptsH1list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel1of743miRs13ptsH2list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel1of743miRs13ptsH2list.txt", header=TRUE, row.names=1)
 View(LungCancerPanel1of743miRs13ptsH2list)
 res.pca<-PCA(LungCancerPanel3of743miRs13ptsH1list)
 res.pca<-PCA(LungCancerPanel1of743miRs13ptsH2list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel1of743miRs13ptsH2listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel1of743miRs13ptsH2listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel1of743miRs13ptsH2listT)
 df12<-scale(LungCancerPanel1of743miRs13ptsH3listT)
@@ -452,10 +487,13 @@ plot(hclust(distance),  main="Dissimilarity = 1 - Correlation", xlab="")
 dissimilarity <- 1 - cor(LungCancerPanel20of743miRs13ptsH3list)
 dissimilarity <- 1 - cor(LungCancerPanel20of722miRs13ptsH3list)
 dissimilarity <- 1 - cor(LungCancerPanel20of743miRs13ptsH3list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH3listT <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH3listT.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH3list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH3list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH3list.txt", header=FALSE)
 View(LungCancerPanel20of743miRs13ptsH3list)
+# EDIT: hardcoded absolute path to the original author's machine
 LungCancerPanel20of743miRs13ptsH3list <- read.delim("D:/ProgramFiles/R-3.6.2/library/FactoMineR/data/LungCancerPanel20of743miRs13ptsH3list.txt", header=TRUE, row.names=1)
 View(LungCancerPanel20of743miRs13ptsH3list)
 dissimilarity <- 1 - cor(LungCancerPanel20of743miRs13ptsH3list)
@@ -481,6 +519,7 @@ devtools::install_github("rstudio/keras")
 library("rlang")
 update.packages()
 save.image(file='LungCancer_miRs.RData')
+# EDIT: hardcoded absolute path to the original author's machine
 load("C:/Users/dsa/Documents/LungCancer_miRs.RData")
 devtools::install_github("rstudio/keras")
 install.packages('rland')

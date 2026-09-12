@@ -3,6 +3,7 @@ function  health = HealthyThreePointMirsLung
 
 
 %mirs = xlsread('D:\Desktop10oct2018\JOHAN\UriHealthy1.xlsx');
+% EDIT: hardcoded absolute path to the original author's machine
 mirs = xlsread('C:\Users\dsa\Documents\MATLAB\healthy_miRmedNor_full947.xlsx');
 
 

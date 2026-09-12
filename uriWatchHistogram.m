@@ -1,5 +1,6 @@
 function  mirs = uriWatchTest1
 
+% EDIT: hardcoded absolute path to the original author's machine
 mirs = xlsread('E:\Company_Paperwork\JOHAN\Data master.xlsx');
 % mirs = xlsread('D:\Desktop10oct2018\JOHAN\Data master.xlsx');
 

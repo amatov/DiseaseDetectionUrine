@@ -36,8 +36,11 @@
 % A = xlsread('C:\Users\dsa\Documents\MATLAB\medNor_Alzheimer.csv');
 % P = xlsread('C:\Users\dsa\Documents\MATLAB\medNor_Parkinson.csv');
 % C = xlsread('C:\Users\dsa\Documents\MATLAB\medNor_Control.csv');
+% EDIT: hardcoded absolute path to the original author's machine
 A = xlsread('C:\Users\dsa\Documents\MATLAB\Alzheimer.csv_cpm.csv');
+% EDIT: hardcoded absolute path to the original author's machine
 P = xlsread('C:\Users\dsa\Documents\MATLAB\Parkinson.csv_cpm.csv');
+% EDIT: hardcoded absolute path to the original author's machine
 C = xlsread('C:\Users\dsa\Documents\MATLAB\Control.csv_cpm.csv');
 A5 = A(:,1:20);
 P5 = P(:,1:20);

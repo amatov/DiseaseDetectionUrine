@@ -387,10 +387,13 @@ plot(don.sol,mod=c(1,2,3,4),nb1=4,nb2=NULL,
 xlab="Subjects/Trimester/Time/Age",main="Associated to Subject vs1111")
 don <- array(1:360,c(5,4,6,3))
 don
+# EDIT: hardcoded absolute path to the original author's machine
 healthy_miRmedNor_full947 <- read.delim("C:/Users/dsa/Desktop/lung_oncomirs_txt/healthy_miRmedNor_full947.txt", header=FALSE)
 View(healthy_miRmedNor_full947)
+# EDIT: hardcoded absolute path to the original author's machine
 healthy_miRmedNor_full947 <- read.delim("C:/Users/dsa/Desktop/lung_oncomirs_txt/healthy_miRmedNor_full947.txt", header=TRUE)
 View(healthy_miRmedNor_full947)
+# EDIT: hardcoded absolute path to the original author's machine
 data("C:/Users/dsa/Desktop/lung_oncomirs_txt/healthy_miRmedNor_full947.txt")
 healthy_miRmedNor_full947.txt
 healthy_miRmedNor_full947

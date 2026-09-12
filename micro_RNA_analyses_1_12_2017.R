@@ -15,6 +15,7 @@ library(edgeR)
 ## The raw counts are in the columnnumbers 2, 7, 12, 17 etc (=seq(from = 2, by = 5, to = 77))
 ##temp <- read.table("C:/Users/oudshoornc/Dropbox/UriWatch/Data/Data_1_12_2017.csv", sep = ";", header = TRUE, row.names = 1, nrows = 687)
 
+# EDIT: hardcoded absolute path to the original author's machine
 temp <- read.table("C:/Users/dsa/Desktop/Data_1_12_2017_2019.csv", sep = ";", header = TRUE, row.names = 1, nrows = 687)
 
 RNA <- temp[-1, seq(from = 1, to = 76, by = 5)]

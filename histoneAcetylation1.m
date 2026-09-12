@@ -1,6 +1,7 @@
 function  nuc = histoneAcetylation1
 
 % mirs = xlsread('C:\Users\dsa\Desktop\mirSet02Raw.xlsx');
+% EDIT: hardcoded absolute path to the original author's machine
 nuc = imread('D:\LESHA\MPP8-Katoshka-Test2\araC\Katoshka__C_005_r_0005_c_0005_t_00000000_z_0000-00000000.tif');
 %I=nuc(1:170,70:200);
 I=nuc;

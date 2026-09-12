@@ -2,6 +2,7 @@ function  health = HealthyThreePointMirs
 
 
 
+% EDIT: hardcoded absolute path to the original author's machine
 mirs = xlsread('D:\Desktop10oct2018\JOHAN\UriHealthy1.xlsx');
 
 % M = csvread('Data_1_12_2017.csv');

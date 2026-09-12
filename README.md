@@ -25,8 +25,6 @@ repository.
 - `data/` -- `.RData` data files.
 - `media/` -- figures.
 - `reports/` -- a PDF report.
-- Hardcoded absolute paths to the original author's machine are flagged
-  with a `# EDIT:` / `% EDIT:` comment directly above them.
 - **License:** see [LICENSE](LICENSE) -- research/educational use.
 
 ## About

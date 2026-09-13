@@ -2,7 +2,7 @@
 
 ## Quick start
 
-This repository contains R and MATLAB scripts for companion diagnostics
+This repository contains R and Matlab scripts for companion diagnostics
 (UriWatch - LiquidThermometer) based on urinary microRNA biomarkers.
 See [DEPENDENCIES.md](DEPENDENCIES.md) for the required R packages and
 the input data files scripts expect but which are not included in this
@@ -23,7 +23,7 @@ repository.
   `HealthyThreeTimePointMirsMM.m`, `uriWatchHistogram.m`,
   `histoneAcetylation1.m`, `granger_cause.m`, `miRloess.m`,
   `miRnaTrim.m`, `miRnormalize.m`, `quantile_norm.m`, `roc_curve.m` --
-  MATLAB analysis and utility scripts.
+  Matlab analysis and utility scripts.
 - `data/` -- `.RData` data files.
 - [`media/`](media/) -- figures.
 - `reports/` -- a PDF report.

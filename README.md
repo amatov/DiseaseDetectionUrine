@@ -1,3 +1,5 @@
+## DiseaseDetectionUrine
+
 ## Quick start
 
 This repository contains R and MATLAB scripts for companion diagnostics
@@ -23,7 +25,7 @@ repository.
   `miRnaTrim.m`, `miRnormalize.m`, `quantile_norm.m`, `roc_curve.m` --
   MATLAB analysis and utility scripts.
 - `data/` -- `.RData` data files.
-- `media/` -- figures.
+- [`media/`](media/) -- figures.
 - `reports/` -- a PDF report.
 - **License:** see [LICENSE](LICENSE) -- research/educational use.
 

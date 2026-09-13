@@ -19,7 +19,7 @@
 
 `histoneAcetylation1.m` uses `imread`, which requires Matlab's **Image
 Processing Toolbox**. `est_rel_entro_HJW.m` is the third-party HJW
-KL-divergence estimator -- see LICENSE. Other `.m` scripts (`xlsread`,
+KL divergence estimator -- see LICENSE. Other `.m` scripts (`xlsread`,
 plotting) use only core Matlab.
 
 ## Missing input data

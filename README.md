@@ -17,7 +17,7 @@ repository.
 - `CA.R`, `PCA.R`, `Heatmap1.r`, `hclust.R`, `ColorBrewer.R`, `v25i01.R`,
   `R scripts for PONE-D-15-46623.R` -- multivariate data analysis,
   PCA, and heatmap generation.
-- `est_rel_entro_HJW.m` -- the third-party HJW KL-divergence estimator
+- `est_rel_entro_HJW.m` -- the third-party HJW KL divergence estimator
   (see LICENSE).
 - `HealthyThreeTimePointMirs.m`, `HealthyThreeTimePointMirsLung.m`,
   `HealthyThreeTimePointMirsMM.m`, `uriWatchHistogram.m`,

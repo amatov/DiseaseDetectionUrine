@@ -1,4 +1,4 @@
-## DiseaseDetectionUrine
+## Disease Detection Urine
 
 R and Matlab code I wrote for companion diagnostics, UriWatch - LiquidThermometer.
 
